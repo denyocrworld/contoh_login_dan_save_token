@@ -10,8 +10,7 @@ final defaultOptions = Options(
 
 class TodoService {
   Future<List<Map<String, dynamic>>> get() async {
-    final String url =
-        'https://capekngoding.com/demo/api/todos/12312/31231/12323';
+    final String url = 'https://capekngoding.com/demo/api/todos';
 
     try {
       final response = await dio.get(
