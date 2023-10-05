@@ -44,6 +44,24 @@ class LoginView extends StatefulWidget {
                   label: "Login",
                   onPressed: () => controller.doLogin(),
                 ),
+                const SizedBox(
+                  height: 20.0,
+                ),
+                Text(
+                  "admin@demo.com | 123456",
+                  style: TextStyle(
+                    fontSize: 12.0,
+                  ),
+                ),
+                const SizedBox(
+                  height: 6.0,
+                ),
+                Text(
+                  "user@demo.com | 123456",
+                  style: TextStyle(
+                    fontSize: 12.0,
+                  ),
+                ),
               ],
             ),
           ),
